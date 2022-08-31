@@ -6,7 +6,7 @@ import Box from '@material-ui/core/Box';
 import Cookies from 'universal-cookie';
 import { BrowserView, MobileView } from 'react-device-detect';
 import "../styles/centered.css";
-
+import "../styles/ow.css";
 const ColoredLine = ({ color }) => (
     <hr
         style={{

@@ -1,0 +1,20 @@
+.centered {
+    /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+    width: 500;
+}
+
+.center-image img {
+    max-width: 100%;
+    max-height: 100%;
+}

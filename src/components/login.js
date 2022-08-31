@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import { Link, NavLink } from "react-router-dom";
-import icon from "./logo2.png";
 import { BrowserView, MobileView } from 'react-device-detect';
 import Cookies from 'universal-cookie';
 
 import { GenerateJWT, DecodeJWT, ValidateJWT } from "./JWTfunctions"
+
+import icon from "../assets/logo2.png";
+
+
 const JSRSASign = require('jsrsasign');
 
 const key = '$JesseWeNeedToCook!';
@@ -147,7 +150,7 @@ export default function Login() {
                                 style={{ marginTop: '20px', marginBottom: '5x' }}
                                 type="submit"
                                 value="Sign In"
-                                className="button-12 "
+                                className="button-12"
                             />
                         </div>
                         <div class="ColoredLine">

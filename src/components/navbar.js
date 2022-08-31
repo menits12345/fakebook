@@ -1,25 +1,22 @@
 import React from "react";
-import "./styles.css";
-
+import "../styles/centered.css";
+import "../styles/topnav.css";
+import "../styles/bm-burger.css";
 // We import bootstrap to make our application look better.
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/js/bootstrap.bundle';
 
-import icon from "./logo.png";
-import outIcon from "./signoutLogo.png";
+import icon from "../assets/logo.png";
+import outIcon from "../assets/signoutLogo.png";
 
 import { BrowserView, MobileView } from 'react-device-detect';
 import { slide as Menu } from 'react-burger-menu'
 // We import NavLink to utilize the react router.
 import { Link, NavLink } from 'react-router-dom';
-import Search from "./search";
+
 
 // Here, we display our Navbar
 export default function Navbar() {
-
-    const classNameFunc = ({ isActive }) => (isActive ? "active_link" : "");
-
-
     return (
         <>
             <BrowserView style={{ position: 'sticky', top: '0' }}>

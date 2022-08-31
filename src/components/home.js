@@ -5,7 +5,7 @@ import Navbar from "./navbar";
 import Box from '@material-ui/core/Box';
 import Cookies from 'universal-cookie';
 import { BrowserView, MobileView } from 'react-device-detect';
-import "./styles.css";
+import "../styles/centered.css";
 
 const ColoredLine = ({ color }) => (
     <hr

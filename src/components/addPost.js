@@ -2,11 +2,12 @@ import React, { useLayoutEffect, useRef, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { Link, NavLink } from "react-router-dom";
 import Navbar from "./navbar";
-import "./styles.css";
 import { BrowserView, MobileView } from 'react-device-detect';
 //const methodOverride = require('method-override');
 //const GridFsStorage = require('multer-gridfs-storage');
 
+import "../styles/centered.css";
+import "../styles/button-12.css";
 
 export default function CreatePost() {
 
@@ -268,7 +269,7 @@ export default function CreatePost() {
                                 style={{ marginBottom: '20px' }}
                                 type="submit"
                                 value="Post"
-                                className="button-12 "
+                                className="button-12"
                             />
                         </div>
                     </form>

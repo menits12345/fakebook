@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import { Link, NavLink } from "react-router-dom";
-import icon from "./logo2.png";
 import { GenerateJWT, DecodeJWT, ValidateJWT } from "./JWTfunctions";
 import { BrowserView, MobileView } from 'react-device-detect';
+import icon from "../assets/logo2.png";
+import "../styles/centered.css";
+import "../styles/button-12.css";
+
 const JSRSASign = require('jsrsasign');
 
 const key = '$JesseWeNeedToCook!';

@@ -1,0 +1,10 @@
+.backg {
+    background-color: #ced7e7;
+
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-size: cover, auto;
+}

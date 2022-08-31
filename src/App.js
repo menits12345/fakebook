@@ -10,7 +10,7 @@ import Home from "./components/home";
 import Search from "./components/search";
 import CreatePost from "./components/addPost";
 import MyPosts from "./components/myPosts";
-import "./background.css";
+import "./styles/background.css";
 
 const App = () => {
 
@@ -21,8 +21,8 @@ const App = () => {
         <Route path="/friendUser" element={<Search />} Route />
         <Route path="/createPost" element={<CreatePost />} Route />
         <Route path="/myPosts" element={<MyPosts />} Route />
-        <Route path="/" element={<Create />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Create />} Route />
+        <Route path="/login" element={<Login />} Route />
       </Routes>
 
     </div>

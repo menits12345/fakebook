@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import Navbar from "./navbar";
 import Box from '@material-ui/core/Box';
 import { BrowserTypes, BrowserView, MobileView } from 'react-device-detect';
+import "../styles/centered.css";
 
 const ColoredLine = ({ color }) => (
     <hr

@@ -187,19 +187,6 @@ export default function Create() {
                                 />
                                 <label htmlFor="Female" className="form-check-label">Female</label>
                             </div>
-                            <div className="centered" style={{ marginRight: '59px' }}>
-                                <input
-                                    style={{ marginRight: '5px' }}
-                                    className="form-check-input"
-                                    type="radio"
-                                    name="gender"
-                                    id="Attack Helicopter"
-                                    value="Attack Helicopter"
-                                    checked={form.gender === "Attack Helicopter"}
-                                    onChange={(e) => updateForm({ gender: e.target.value })}
-                                />
-                                <label htmlFor="Attack Helicopter" className="form-check-label">Attack Helicopter</label>
-                            </div>
                         </div>
                         <div className="centered">
                             <input
